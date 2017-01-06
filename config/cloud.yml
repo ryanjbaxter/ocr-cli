@@ -1,0 +1,13 @@
+spring:
+  cloud:
+    launcher:
+      deployables:
+        races:
+          coordinates: maven://com.ryanjbaxter.spring.cloud:ocr-races:0.0.1-SNAPSHOT
+          port: 8282
+        participants:
+          coordinates: maven://com.ryanjbaxter.spring.cloud:ocr-participants:0.0.1-SNAPSHOT
+          port: 8181
+        web:
+          coordinates: maven://com.ryanjbaxter.spring.cloud:ocr-web:0.0.1-SNAPSHOT
+          port: 8080
